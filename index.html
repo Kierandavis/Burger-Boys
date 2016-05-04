@@ -1,24 +1,306 @@
-<!doctype html>
-<html lang=''>
+<!doctype HTML>
 <head>
-   <meta charset='utf-8'>
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="styles.css">
-   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-   <script src="script.js"></script>
-   <title>CSS MenuMaker</title>
-</head>
-<body>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="fonts/favicon.ico">
+  <link href="css/stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 
-<div id='cssmenu'>
-<ul>
-   <li class='active'><a href='#'><span>Home</span></a></li>
-   <li><a href='#'><span>Products</span></a></li>
-   <li><a href='#'><span>Company</span></a></li>
-   <li class='last'><a href='#'><span>Contact</span></a></li>
-</ul>
+<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/myjs.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+  <title>Burger Boys</title>
+</head>
+<body>   
+    <div id='cssmenu'>
+    <ul>
+       <li><a href='#about'><span>About</span></a></li>
+       <li><a href='#joints'><span>Joints</span></a></li>
+       <li ><a href='#videos'><span>Videos</span></a></li>
+       <li><a href='#team'><span>Team</span></a></li>
+       <li ><a href='#pictures'><span>Pictures</span></a></li>
+       <span id="indent"></span>
+    </ul>
+    </div>
+
+<section id="home">
+<div class="container text-center" id="intro">
+  <div class="intro-text">
+    <div class="row text-center">
+      <div class="col-sm-12">
+      <img id="logo" src="logo1.png">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="subtittle"class="intro-heading">Reviews, Pictures and More</div>
+    <a id="button" href="#about" class="btn">Learn More</a>
+    </div>
+</div> 
+</section>
+<!--
+<div id="signup">
+  <form id="signup">
+    First Name <imput type="text">
+    <br>
+    Last Name <input type="text">  
+    <br>
+    Username<input type="text">
+    <br>
+    Password <imput type="text">
+  </form>
+</div>
+-->
+<section id="about">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">Burger Boys</h2>
+    <h3 class="section-subheading text-muted">The Goal of Our Project</h3>
+  </div>
+  <div id="aboutContainer" class="container text-center">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <img id="propic"src="http://nike.teamheadwear.com/uploads/user_assets/3285/cardinal-logo.png">
+          <p id="text">Find the best burger within 15 miles of GHS.</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <img id="propic"src="http://www.iconsdb.com/icons/preview/red/video-play-xxl.png">
+          <p id="text">Cook creative burgers once a week and make videos.</p>
+        </div>
+        <div class="col-md-5">
+          <img id="propic"src="https://d30y9cdsu7xlg0.cloudfront.net/png/36684-200.png">
+          <p id="text">Find the best burger in NYC.</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <img id="propic"src="https://cdn3.iconfinder.com/data/icons/ballicons-free/128/imac.png">
+          <p id="text">Create a website with an organized interface so people can see our data.</p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="joints">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">Joints Visited</h2>
+    <br>
+    <br>
+  </div>
+  <div class="container ">
+    <div class="col-md-4">
+      <ul>
+        <li>Plan B</li>
+        <br>
+        <li>Lucky's Classic</li>
+        <br>
+        <li>Harry's Place</li>
+        <br>
+        <li>BSF</li>
+        <br>
+        <li>Bobby Q's</li>
+        <br>
+        <li>Ginger Man</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <ul>
+        <li>Joey B's</li>
+        <br>
+        <li>Five Guys</li>
+        <br>
+        <li>Little Pub</li>
+        <br>
+        <li>McDonalds</li>
+        <br>
+        <li>Wendys</li>
+        <br>
+        <li>Burger King</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <ul>
+        <li>Five Napkin</li>
+        <br>
+        <li>Da Burger Joint</li>
+        <br>
+        <li>Umani Burger</li>
+        <br>
+        <li>Red Cat</li>
+        <br>
+        <li>Bareburger</li>
+        <br>
+        <li>Island Burgers and Shakes</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading">Videos</h2>
+    <br>
+    <br>
+  </div>
+  <div class="container" id="videocontainer">
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li id="item"><a href="">Week One</a></li>
+          </ul>  
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li id="item"><a href="">Week Two</a></li>
+          </ul>  
+        </div>
+      </div>
+      <div class="row" id="row2">  
+        <div class="col-md-6">
+         <ul>
+            <li id="item"><a href="">Week Three</a></li>
+         </ul>
+        </div>
+        <div class="col-md-6">
+         <ul>
+            <li id="item"><a href="">Week Four</a></li>
+         </ul>   
+        </div>
+      </div>  
+  </div>
+</section>
+
+<section id="team">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading" id="head">Meet the Team</h2>
+    <h3 class="section-subheading text-muted" id="description">Lorem ipsum dolor sit amet consectetur.</h3>
+  </div>
+  <br>
+  <br> 
+  <br> 
+  <div class="container text-center" id="people">
+    <div class="row">
+      <div class="col-md-3">
+        <img id="propic"src="https://ans.latech.edu/documents/watermark/default-profile.png"></img>
+        <h4 id="head">Kieran Davis</h4>
+       <p class="text-muted" id="description">Developer</p>
+       <p id="history">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+    </div>
+    <div class="col-md-3">
+      <img id="propic"src="https://ans.latech.edu/documents/watermark/default-profile.png"></img>
+      <h4 id="head">Henry Golden</h4>
+      <p class="text-muted" id="description">Developer</p>
+      <p id="history">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+    </div>
+    <div class="col-md-3">
+      <img id="propic"src="https://ans.latech.edu/documents/watermark/default-profile.png"></img>
+      <h4 id="head">Will Sisca</h4>
+      <p class="text-muted" id="description">Head Photographer</p>
+      <p id="history">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+    </div>
+    <div class="col-md-3">
+      <img id="propic"src="https://ans.latech.edu/documents/watermark/default-profile.png"></img>
+      <h4 id="head">Emmett Witmer</h4>
+      <p class="text-muted" id="description">Head Chef</p>
+      <p id="history">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section id="pictures">
+<div class="col-lg-12 text-center">
+  <h2 id="picheading" class="section-heading">Pictures</h2>
+</div>
+  <div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="http://images.gearjunkie.com/uploads/2015/10/AmWThvw.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>(Restaurant Name)</h3>
+          <p>A very descriptive description that describes.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="http://img.gawkerassets.com/img/18z285lyrzka4jpg/original.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>(Restaurant Name)</h3>
+          <p>A very descriptive description that describes.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="http://perierga.gr/wp-content/uploads/2011/01/Lofoten_4.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>(Restaurant Name)</h3>
+          <p>A very descriptive description that describes.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="http://40.media.tumblr.com/5d44d1cfb8bc948219f40b9946e5bcd4/tumblr_n1xa4wnXQb1tq11emo1_1280.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>(Restaurant Name)</h3>
+          <p>A very descriptive description that describes.</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 
+
+</section>
+
 </body>
-<html>
+</html>
+
+
