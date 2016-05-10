@@ -1,5 +1,7 @@
 
 
+
+
 #home {
 	background: url("http://www.francescotonelli.com/media/original/20110721_bk_062_2_full.jpg"); 
   -webkit-background-size: cover;
@@ -20,11 +22,11 @@
 .navbar-default{
 	margin-bottom: 0%;
 	background-color: black;
-	border-bottom-color: red;
+	border-bottom-color: black;
 }
 .navbar-default .navbar-collapse{
 		border-color: white !important;
-	border-bottom-color: red !important;
+
 }
 .navbar-default .navbar-nav>li>a{
 	color: white;
@@ -32,14 +34,10 @@
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: black;
-}
-ul li:hover{
 	background-color: white;
+	font-size: 30px;
 }
-ul li:hover > a{
-	font-weight: bold;
-	color: white;
-}
+
 section {
 	padding-top: 20px;
 }
@@ -164,7 +162,6 @@ ul {list-style-type: circle;  line-height: 2;}
 	border-right-width: 0% !important;
 	border-left-width: 0% !important;
 }
-
 
 
 
