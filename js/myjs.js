@@ -1,7 +1,6 @@
-document.getElementById("button").innerHTML.style.display="none";
-
 $(document).ready(function(){
-    $("#button").click(function(){
-        $("signup").show();
-    });
+    $("a").click(function(){
+    	$("body, html").animate({
+    		scrollTop: $( $(this).attr('href') ).offset().top-50},600);
+    	});
 });
