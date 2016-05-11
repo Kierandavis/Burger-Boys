@@ -1,0 +1,85 @@
+<!doctype HTML>
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="fonts/favicon.ico">
+  <link href="css/stylesheet.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/myjs.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" id="form">
+<h1>Sign Up</h1>
+<br>
+<br>
+<div class="alert alert-success">
+  <strong>Welcome!</strong> You are now part of the Burger Boys Team!
+</div>
+<div class="hidee">
+<div class="container text-center">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-3">
+			<input type="text" placeholder="First Name">
+		</div>
+		<div class="col-md-3">
+			<input type="text" placeholder="Last Name">
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<br>
+	<br>
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-3">
+			<input type="text" placeholder="Username">
+		</div>
+		<div class="col-md-3">
+			<input type="text" placeholder="Password">
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<br>
+	<div class="row text-center">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<input type="text" placeholder="Email">
+		</div>
+		<div class="col-md-4"></div>	
+	</div>
+	<br>
+	<div class="row text-center">
+		<div class="col-md-12">
+			<button class="btn btn-success sub">Submit</button>
+		</div>	
+	</div>
+</div>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+$(".alert").hide();
+$(".sub").on('click',function(){
+	$(".alert").show();
+	$(".hidee").hide();
+});
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
