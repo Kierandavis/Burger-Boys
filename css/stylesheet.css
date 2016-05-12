@@ -108,8 +108,8 @@ hr{
 
 }
 #row2{
-	margin-top: 15%;
-	margin-left: 15%;
+	margin-top: 5%;
+	margin-left: 10%;
 }
 #item{
 	font-size: 30px;
@@ -120,7 +120,7 @@ hr{
 	color:#0C244F;
 }
 #videos{
-	height:600px;
+	height:800px;
 	background-color: #4A6491;
 	color: white;
 }
@@ -131,7 +131,7 @@ a:hover{
 	color: yellow;
 }
 #videocontainer{
-	margin-left: 15%;
+	margin-left: 10%;
 }
 #team{
 	height:600px;
@@ -173,12 +173,18 @@ ul {list-style-type: circle;  line-height: 2;}
 #history{
 	color:#5FD4B8 ;
 }
+#piccont{
+	height: 100%;
+}
+#mycarousel{
+	height: 100%;
+}
 #carousel{
 	border-right-width: 0% !important;
 	border-left-width: 0% !important;
 }
 #scrollpic{
-	height:400px;
+	height: 400px;
 }
 #email{
 	color: #3399ff;
