@@ -12,7 +12,7 @@ function drawBasic() {
         ['Flavor', 90, 'color: #85A5CC', '90%'],
         ['Appearance', 87, 'color: #4A6491', '87%'],
         ['Service', 80, 'color: #30395C ', '80%'],
-        ['Price', 60, 'color: #1A1F2B', '80%'],
+        ['Price', 60, 'color: #1A1F2B', '60%'],
       ]);
 
       var options = {
