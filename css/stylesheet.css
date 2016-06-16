@@ -159,9 +159,12 @@ a:hover{
 }
 li{
 	list-style-image:url("http://megaicons.net/static/img/icons_sizes/51/1455/16/burger-icon.png");
-	font-size:20px;
+	font-size:25px;
 }
-ul {list-style-type: circle;  line-height: 2;}
+ul {
+	list-style-type: circle;  line-height: 2;
+	display: inline-block;
+}
 #pictures{
 	height: 600px;
 	background-color:#1A1F2B !important;
@@ -189,4 +192,3 @@ ul {list-style-type: circle;  line-height: 2;}
 #email{
 	color: #3399ff;
 }
-
