@@ -2,7 +2,7 @@ h1{
 	width:20%;
 	margin-left: 45%;
 }
-#form{
+#input-form{
 	margin-top: 10%;
 	background-color: #4da6ff;
 	height: 420px;
@@ -125,7 +125,7 @@ hr{
 	color: white;
 }
 a{
-	color: white;
+	color: #0C244F;
 }
 a:hover{
 	color: yellow;
