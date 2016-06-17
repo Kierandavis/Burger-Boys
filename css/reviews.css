@@ -1,0 +1,110 @@
+*{
+
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+#navbarcont{
+	margin-right: 0% !important;
+	margin-left: 0%;
+	width: 100%;
+}
+.navbar-default{
+	margin-bottom: 0%;
+	background-color: black;
+	border-bottom-color: black;
+}
+.navbar-default .navbar-collapse{
+		border-color: white !important;
+
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: black;
+	background-color: white;
+}
+
+h1{
+	color: black;
+	width: 50%;
+	opacity: 1;
+	margin-left: 25%;
+	border-bottom-color: black;
+}
+h2{
+	background-color: blue;
+	border-color: black
+	color: green;
+}
+#summary{
+	font-size: 15px;
+}
+#text{
+	font-size: 15px;
+	color: black;
+	opacity: 1;
+}
+#chart_div{
+	margin-top: 0%;
+	height: 300px;
+}
+.col-md-2{
+	padding: 0%;
+}
+.col-md-4{
+	padding-left: 0%;
+}
+.col-md-6{
+	padding-left: 0%;
+}
+#icon{
+	height:30px;
+	opacity: 1;
+	margin-left: 10%;
+}
+p{
+	font-size: 25px;
+}
+#score{
+	font-size: 25px;
+	color: green;
+}
+#badscore{
+	font-size: 25px;
+	color: red;
+}
+hr{
+	color: black;
+	width: 80%;
+	margin-left: 10%;
+	height: 10px;
+
+}
+#geninfo{
+	border-right-color: black;
+}
+#pic{
+	height: 300px;
+}
+#joeybs{
+	height: 200px;
+
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#stamp{
+	height: 350px;
+	margin-left: 10%;
+}
+#medal{
+	height: 300px;
+}
+
